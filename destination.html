@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+       
+
+    <header class="shadow mb-2 bg-stone-100">
+        <div
+            class="relative flex max-w-screen-xl flex-col overflow-hidden px-4 py-4 md:mx-auto md:flex-row md:items-center">
+            <a href="#" class="flex items-center whitespace-nowrap text-2xl font-black">
+                <span class="text-gray-800"> <span class="text-teal-500">Go</span>Travel</span>
+            </a>
+            <input type="checkbox" class="peer hidden" id="navbar-open" />
+            <label class="absolute top-5 right-7 cursor-pointer md:hidden" for="navbar-open">
+                <span class="sr-only">Toggle Navigation</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </label>
+           
+    <nav aria-label="Header Navigation"
+    class="peer-checked:mt-8 peer-checked:max-h-56 flex max-h-0 w-full flex-col items-center justify-between overflow-hidden transition-all md:ml-24 md:max-h-full md:flex-row md:items-start">
+    <ul class="flex flex-col items-center space-y-2 md:ml-auto md:flex-row md:space-y-0">
+        <li class=" text-gray-800  md:mr-12 hover:text-teal-500 duration-200 cursor-pointer"><a
+                href="./index.html">Home</a></li>
+        <li class="text-gray-800 md:mr-12 hover:text-teal-500 duration-200 cursor-pointer"><a
+                href="#">Tours</a></li>
+        <li class="text-gray-800 md:mr-12 hover:text-teal-500 duration-200 cursor-pointer"><a
+                href="./destination.html">Destinations</a></li>
+        <li class="text-gray-800 md:mr-12 hover:text-teal-500 duration-200 cursor-pointer"><a
+                href="#">Gallery</a></li>
+        <li class="text-gray-800 md:mr-12 hover:text-teal-500 duration-200 cursor-pointer">
+            <button
+                class="rounded-md border-2 border-teal-600 px-6 py-1 font-medium text-teal-500 transition-colors hover:bg-teal-500 hover:text-white">Contact</button>
+        </li>
+    </ul>
+</nav>
+
+        </div>
+    </header>
+
+
+    <div class="p-2 text-bold">
+        <h1 class="text-center text-bold  text-teal-500 text-4xl px-4 py-2">Destination</h1>
+        <h2 class="text-center  ">Explore Tours By Destinations</h2>
+   </div>
+      
+      <section id="Projects"
+      class="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
+  
+      <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+          <a href="#">
+              <img src="https://images.unsplash.com/photo-1595815771614-ade9d652a65d?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="" class="h-80 w-72 object-cover rounded-t-xl" />
+                  
+                  <p class="text-xl font-bold text-teal-500 text-center p-2 ">Kashmir</p>
+                  <div class="flex items-center">
+                     <a class="text-md" style="margin-left: 110px; margin: top 90px;;" href="">viewmore</a>
+                  </div>
+              </div>
+          </a>
+      </div>
+    
+      <div class="w-100 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+          <a href="#">
+              <img src="https://images.unsplash.com/photo-1532186651327-6ac23687d189?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJhbGl8ZW58MHx8MHx8fDA%3D"
+                      alt="" class="h-80 w-72 object-cover rounded-t-xl" />
+      
+                  <p class="text-lg font-bold text-teal-500 text-center p-2">Bali</p>
+                  <div class="flex items-center">
+                    <a class="text-md" style="margin-left: 110px; margin: top 90px;;" href="">viewmore</a>
+                  </div>
+              </div>
+          </a>
+      </div>
+      
+      <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+          <a href="#">
+              <img src="https://images.pexels.com/photos/2159549/pexels-photo-2159549.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                      alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
+              
+               
+                  <p class="text-lg font-bold  text-teal-500 text-center p-2">Istanbul</p>
+                  <div class="flex items-center">
+                    <a class="text-md" style="margin-left: 110px; margin: top 90px;;" href="">viewmore</a>
+                  </div>
+              </div>
+          </a>
+      </div>
+      
+      <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+          <a href="#">
+              <img src="https://i.pinimg.com/originals/90/c1/9a/90c19a3547b6685daffb88c05ce8d96f.jpg"
+                      alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
+                      
+                  <p class="text-lg font-bold  text-teal-500 text-center p-2">Leh</p>
+                  <div class="flex items-center"></div>
+                  <a class="text-md" style="margin-left: 110px; margin: top 90px;;" href="">viewmore</a>
+                  </div>
+              </div>
+          </a>
+      </div>
+      
+      <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+          <a href="#">
+              <img src="https://www.blazetrip.com/wp-content/uploads/2019/02/bangkok-grand-palace-1200x801.jpg"
+                      alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
+              <div class="px-4 py-3 w-72">
+                  
+                  <p class="text-lg font-bold   text-teal-500 text-center p-2">Bangkok</p>
+                  <div class="flex items-center">
+                    <a class="text-md" style="margin-left: 95px; margin: top 90px;;" href="">viewmore</a>
+                  </div>
+              </div>
+          </a>
+      </div>
+      
+      <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+          <a href="#">
+              <img src="https://wallup.net/wp-content/uploads/2017/03/16/182308-Sydney-sunset-Sydney_Opera_House.jpg"
+                      alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
+              <div class="px-4 py-3 w-72">
+           
+                  <p class="text-lg font-bold  text-teal-500 text-center p-2">Sydney</p>
+                  <div class="flex items-center">
+                    <a class="text-md" style="margin-left: 95px; margin: top 90px;;" href="">viewmore</a>
+                  </div>
+              </div>
+          </a>
+      </div>
+   
+  
+  </section>
+
+  
+
+<!-- footer  -->
+
+<section class="bg-stone-100">
+    <footer class="flex flex-col space-y-10 justify-center m-10 mt-24 ">
+
+        <nav class="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
+            <a class="hover:text-gray-900" href="#">Home</a>
+            <a class="hover:text-gray-900" href="#">Tours</a>
+            <a class="hover:text-gray-900" href="#">Destinations</a>
+            <a class="hover:text-gray-900" href="#">Gallery</a>
+            <a class="hover:text-gray-900" href="#">Contact</a>
+        </nav>
+
+        <div class="flex justify-center space-x-5">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" />
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
+            </a>
+            <a href="https://messenger.com" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluent/30/000000/facebook-messenger--v2.png" />
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/fluent/30/000000/twitter.png" />
+            </a>
+        </div>
+        <p class="text-center text-gray-700 font-medium">&copy; 2024 Go Travel Ltd. All rights reservered.</p>
+    </footer>
+
+      
+</body>
+
+</html>

@@ -1,0 +1,346 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+       
+
+    </style>
+</head>
+
+
+<!-- header and nav bars icons  -->
+<body>
+    <header class="shadow mb-2 bg-stone-100">
+        <div
+            class="relative flex max-w-screen-xl flex-col overflow-hidden px-4 py-4 md:mx-auto md:flex-row md:items-center">
+            <a href="#" class="flex items-center whitespace-nowrap text-2xl font-black">
+                <span class="text-gray-800"> <span class="text-teal-500">Go</span>Travel</span>
+            </a>
+            <input type="checkbox" class="peer hidden" id="navbar-open" />
+            <label class="absolute top-5 right-7 cursor-pointer md:hidden" for="navbar-open">
+                <span class="sr-only">Toggle Navigation</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </label>
+            <nav aria-label="Header Navigation"
+                class="peer-checked:mt-8 peer-checked:max-h-56 flex max-h-0 w-full flex-col items-center justify-between overflow-hidden transition-all md:ml-24 md:max-h-full md:flex-row md:items-start">
+                <ul class="flex flex-col items-center space-y-2 md:ml-auto md:flex-row md:space-y-0">
+                    <li class=" text-gray-800  md:mr-12 hover:text-teal-500 duration-200 cursor-pointer"><a
+                            href="./index.html">Home</a></li>
+                    <li class="text-gray-800 md:mr-12 hover:text-teal-500 duration-200 cursor-pointer"><a
+                            href="#">Tours</a></li>
+                    <li class="text-gray-800 md:mr-12 hover:text-teal-500 duration-200 cursor-pointer"><a
+                            href="./destination.html">Destinations</a></li>
+                    <li class="text-gray-800 md:mr-12 hover:text-teal-500 duration-200 cursor-pointer"><a
+                            href="#">Gallery</a></li>
+                    <li class="text-gray-800 md:mr-12 hover:text-teal-500 duration-200 cursor-pointer">
+                        <button
+                            class="rounded-md border-2 border-teal-600 px-6 py-1 font-medium text-teal-500 transition-colors hover:bg-teal-500 hover:text-white">Contact</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- menu console bar and bg img  -->
+    
+    <section style="background: url(./bg1.jpg ) no-repeat center center/cover "  >
+        <div class="bg-gradient-to-br text-white py-20 " class="bg-cover bg-center"  style="background-color: rgba(1, 124, 155, 0.904);"> 
+            <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
+                <div class="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
+
+                    <h2 class="text-5xl md:text-7xl leading-relaxed md:leading-snug mb-2">
+                        <a href="#" class="flex items-center whitespace-nowrap text-2xl font-black">
+                            
+                            <h5 class=" text-2xl font-bold text-black sm:text-4xl xl:text-4xl">Amazing Tour</h5>
+                        </a>
+                    </h2>
+                    <p class="text-sm md:text-base text-black-900 mb-4">At TourRadar, we believe adventure is the ultimate life-enriching experience that enables you to explore our world in new ways. And all you have to do is show up—because we found the ultimate travel hack: Organized adventures.</p>
+                    <a href="#"
+                        class="bg-transparent hover:bg-teal-500 text-black hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-black hover:border-transparent">
+                        Explore Now</a>
+                </div>
+                <div class="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3  justify-center">
+                    <div class="h-48 flex flex-wrap content-center">
+                        <div>
+                            <img class="inline-block mt-28 hidden xl:block" src="./3.png">
+                        </div>
+                        <div>
+                            <img class="inline-block mt-24 md:mt-0 p-8 md:p-0" src="./4.png">
+                        </div>
+                        <div>
+                            <img class="inline-block mt-28 hidden lg:block" src="./5.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- multiple imgs and grids col use  -->
+    <section>
+        <div class="bg-white dark:bg-gray-800 h-screen h-full py-6 sm:py-8 lg:py-12 mb-40">
+            <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+                <div class="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">
+                    <div class="flex items-center gap-12">
+                        <h2 class="text-2xl font-bold text-teal-500 lg:text-3xl dark:text-white">Go Exotic Places -
+                        </h2>
+
+
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
+                    <!-- image - start -->
+                    <a href="#"
+                        class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                        <img src="./8.jpg" loading="lazy" alt="Photo by Minh Pham"
+                            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                        <div
+                            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                        </div>
+
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Taj
+                            Mahal</span>
+                    </a>
+                    <!-- image - end -->
+
+                    <!-- image - start -->
+                    <a href="#"
+                        class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                        <img src="./13.jpg" loading="lazy" alt="Photo by Magicle"
+                            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                        <div
+                            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                        </div>
+
+                        <span
+                            class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Thailand</span>
+                    </a>
+                    <!-- image - end -->
+
+                    <!-- image - start -->
+                    <a href="#"
+                        class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                        <img src="./10.jpg" loading="lazy" alt="Photo by Martin Sanchez"
+                            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                        <div
+                            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                        </div>
+
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Red Fort
+                            Delhi</span>
+                    </a>
+                    <!-- image - end -->
+
+                    <!-- image - start -->
+                    <a href="#"
+                        class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                        <img src="./9.jpg" loading="lazy" alt="Photo by Lorenzo Herrera"
+                            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                        <div
+                            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                        </div>
+
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Stone
+                            chariot</span>
+                    </a>
+                    <!-- image - end -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- text cards and multipley  -->
+    <section>
+        <section class="bg-blue-100 py-12 text-blue-900 sm:py-16 lg:py-20">
+            <div class="mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col items-center">
+                    <div class="text-center">
+                        <p class="text-lg font-medium text-blue-600">What clients say about their experience with us</p>
+                        <h2 class="mt-4 text-3xl font-bold text-blue-900 sm:text-4xl xl:text-5xl">MOST POPULAR TOURS</h2>
+                    </div>
+    
+                    <div class="order-3 mt-8 text-center md:mt-16">
+                        <button
+                            class="mb-20 rounded-lg border-2 border-blue-700 bg-blue-700 px-6 py-2 font-medium text-white transition hover:translate-y-1">More
+                            reviews on TrustPilot</button>
+                    </div>
+    
+                    <div
+                        class="relative mx-auto mt-20 grid max-w-lg grid-cols-1 gap-6 md:max-w-none md:grid-cols-3 lg:gap-10">
+                        <div class="flex flex-col overflow-hidden shadow-xl shadow-blue-200">
+                            <div class="flex flex-1 flex-col justify-between bg-white p-6 lg:py-8 lg:px-7">
+                                <div class="flex-1">
+                                    <p class="text-2xl font-bold">Dubai</p>
+    
+                                    <blockquote class="mt-8 flex-1">
+                                        <p class="leading-relaxed text-blue-900">Dubai is well known city in United Arab Emirates and it is located on the southeast coast of the Persian Gulf; moreover it is one of the major emirate among the seven</p>
+                                    </blockquote>
+                                </div>
+    
+                                <div
+                                    class="mt-8 border px-8 inline-flex items-center rounded-md shadow-sm atext-white py-1 g-blue-400 ">
+                                    <div class="">
+                                        <p class="text-base font-bold ">Arrya Sree </p>
+                                        <p class="mt-0.5 text-sm">CEO, Go Tour</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="flex flex-col overflow-hidden shadow-xl shadow-blue-200">
+                            <div class="flex flex-1 flex-col justify-between bg-white p-6 lg:py-8 lg:px-7">
+                                <div class="flex-1">
+                                    <p class="text-2xl font-bold">London</p>
+    
+                                    <blockquote class="mt-8 flex-1">
+                                        <p class="leading-relaxed text-blue-900">London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times</p>
+                                    </blockquote>
+                                </div>
+    
+                                <div
+                                    class="mt-8 border px-8 inline-flex items-center rounded-md shadow-sm atext-white py-1 g-blue-400 ">
+                                    <div class="">
+                                        <p class="text-base font-bold ">Akil Kumar</p>
+                                        <p class="text-blue-90 mt-0.5 text-sm">Luminar CEO</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="flex flex-col overflow-hidden shadow-xl shadow-blue-200">
+                            <div class="flex flex-1 flex-col justify-between bg-white p-6 lg:py-8 lg:px-7">
+                                <div class="flex-1">
+                                    <p class="text-2xl font-bold">India</p>
+    
+                                    <blockquote class="mt-8 flex-1">
+                                        <p class="leading-relaxed text-blue-900">India, the world's seventh-largest country by area and one of the oldest civilizations globally, ranks among the top tourist destinations on the international tourism map.</p>
+                                    </blockquote>
+                                </div>
+    
+                                <div
+                                    class="mt-8 border px-8 inline-flex items-center rounded-md shadow-sm atext-white py-1 g-blue-400 ">
+                                    <div class="">
+                                        <p class="text-base font-bold ">Shafad </p>
+                                        <p class="text-blue-90 mt-0.5 text-sm">Esports Commentator</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    </section>
+
+    <!-- booking cards  -->
+    <section>
+        <article class="mx-2 my-10 max-w-screen-lg rounded-md border border-gray-100 text-gray-700 shadow-md md:mx-auto">
+            <div class="flex flex-col md:flex-row">
+              <div class="p-5 md:w-4/6 md:p-8">
+                <span class="rounded-md bg-orange-400 px-2 py-1 text-xs uppercase text-white">Go-Travel</span>
+                <p class="mt-2 text-xl font-black md:mt-6 md:text-4xl">The best Europe tour packages</p>
+                <p class="mt-3 text-gray-600">Enjoy free days in Rome, Paris, and the Swiss Alps
+                    Visit Burgundy, Florence, Innsbruck, Munich and Ghent
+                    Snap photos at the iconic Leaning Tower of Pisa</p>
+          
+                <button class="mt-4 mr-2 flex items-center justify-center rounded-md bg-sky-400 px-8 py-2 text-center text-white duration-150 md:mb-4 hover:translate-y-1 hover:bg-sky-500">Book Now</button>
+              </div>
+              <div class="mx-auto hidden items-center px-5 md:flex md:p-8">
+                <img class="rounded-md shadow-lg" src="./12.jpg" alt="Shop image" />
+              </div>
+            </div>
+          </article>
+        <article class="mx-2 my-10 max-w-screen-lg rounded-md border border-gray-100 text-gray-700 shadow-md md:mx-auto">
+            <div class="flex flex-col md:flex-row">
+              <div class="p-5 md:w-4/6 md:p-8">
+                <span class="rounded-md bg-orange-400 px-2 py-1 text-xs uppercase text-white">Go-Travel</span>
+                <p class="mt-2 text-xl font-black md:mt-6 md:text-4xl">The best Spain tour packages</p>
+                <p class="mt-3 text-gray-600">Explore Caceres' medieval quarter
+                    Tour Seville's Cathedral and Giralda
+                    Walk through Cordoba's Jewish Quarter</p>
+          
+                <button class="mt-4 mr-2 flex items-center justify-center rounded-md bg-sky-400 px-8 py-2 text-center text-white duration-150 md:mb-4 hover:translate-y-1 hover:bg-sky-500">Book Now</button>
+              </div>
+              <div class="mx-auto hidden items-center px-5 md:flex md:p-8">
+                <img class="rounded-md shadow-lg" src="./14.jpg" alt="Shop image" />
+              </div>
+            </div>
+          </article>
+        <article class="mx-2 my-10 max-w-screen-lg rounded-md border border-gray-100 text-gray-700 shadow-md md:mx-auto">
+            <div class="flex flex-col md:flex-row">
+              <div class="p-5 md:w-4/6 md:p-8">
+                <span class="rounded-md bg-orange-400 px-2 py-1 text-xs uppercase text-white">Go-Travel</span>
+                <p class="mt-2 text-xl font-black md:mt-6 md:text-4xl">The best Italy tour packages</p>
+                <p class="mt-3 text-gray-600">Explore medieval Assisi and its basilicas
+                    Discover Florence, the Cradle of Renaissance
+                    Savor Bologna's unique flavors and sights</p>
+          
+                <button class="mt-4 mr-2 flex items-center justify-center rounded-md bg-sky-400 px-8 py-2 text-center text-white duration-150 md:mb-4 hover:translate-y-1 hover:bg-sky-500">Book Now</button>
+              </div>
+              <div class="mx-auto hidden items-center px-5 md:flex md:p-8">
+                <img class="rounded-md shadow-lg" src="./15.jpg" alt="Shop image" />
+              </div>
+            </div>
+          </article>
+    </section>
+
+    <!-- footer  -->
+    <section class="bg-stone-100">
+        <footer class="flex flex-col space-y-10 justify-center m-10 mt-24 ">
+
+            <nav class="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
+                <a class="hover:text-gray-900" href="#">Home</a>
+                <a class="hover:text-gray-900" href="#">Tours</a>
+                <a class="hover:text-gray-900" href="#">Destinations</a>
+                <a class="hover:text-gray-900" href="#">Gallery</a>
+                <a class="hover:text-gray-900" href="#">Contact</a>
+            </nav>
+
+            <div class="flex justify-center space-x-5">
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" />
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
+                </a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                    <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
+                </a>
+                <a href="https://messenger.com" target="_blank" rel="noopener noreferrer">
+                    <img src="https://img.icons8.com/fluent/30/000000/facebook-messenger--v2.png" />
+                </a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                    <img src="https://img.icons8.com/fluent/30/000000/twitter.png" />
+                </a>
+            </div>
+            <p class="text-center text-gray-700 font-medium">&copy; 2024 Go Travel Ltd. All rights reservered.</p>
+        </footer>
+
+
+    </section>
+
+
+    
+
+
+
+
+
+
+</body>
+
+</html>
